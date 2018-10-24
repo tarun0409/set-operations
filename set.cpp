@@ -572,15 +572,22 @@ class AVLTree
         return arr;
     }
 
-    void fill_bbst(struct node * curr_node, vector<int> arr, int start_index, int end_index, int curr_pos)
+    int fill_bbst(struct node * curr_node, vector<int> arr, int start_index, int end_index, int curr_pos, int height)
     {
         if(end_index<start_index)
         {
-            return;
+            return 1;
         }
         int mid = (start_index+end_index)/2;
+
         int value = arr[mid];
         struct node * new_node = create_node(value);
+        new_node->height = height;
+        if(start_index!=end_index)
+        {
+            new_node->left_children = (mid-start_index);
+            new_node->right_children = (end_index-mid);
+        }
         if(curr_pos==0)
         {
             curr_node->left_child = new_node;
@@ -589,8 +596,11 @@ class AVLTree
         {
             curr_node->right_child = new_node;
         }
-        fill_bbst(new_node, arr, start_index, (mid-1),0);
-        fill_bbst(new_node, arr, (mid+1), end_index,1);
+        int h1 = fill_bbst(new_node, arr, start_index, (mid-1),0, (height+1));
+        int h2 = fill_bbst(new_node, arr, (mid+1), end_index,1,(height+1));
+        int bf = h1-h2;
+        new_node->balance_factor = bf;
+        return (h1>h2?(h1+1):(h2+1));
     }
 
     AVLTree get_bbst_from_sorted_list(vector<int> arr)
@@ -605,9 +615,16 @@ class AVLTree
         int mid = (start_index+end_index)/2;
         int value = arr[mid];
         struct node * new_node = create_node(value);
+        new_node->height = 1;
+        if(start_index!=end_index)
+        {
+            new_node->left_children = mid;
+            new_node->right_children = (end_index-start_index) - mid;
+        }
         struct node * new_root = new_node;
-        fill_bbst(new_node, arr, start_index, (mid-1),0);
-        fill_bbst(new_node, arr, (mid+1), end_index,1);
+        int h1 = fill_bbst(new_node, arr, start_index, (mid-1),0,2);
+        int h2 = fill_bbst(new_node, arr, (mid+1), end_index,1,2);
+        new_node->balance_factor = (h1-h2);
         AVLTree bbst;
         bbst.init(new_root);
         return bbst;
@@ -659,7 +676,7 @@ class AVLTree
             return;
         }
         in_order_print(curr_node->left_child);
-        cout<<curr_node->value<<" ";
+        cout<<"("<<curr_node->value<<","<<curr_node->height<<","<<curr_node->left_children<<","<<curr_node->right_children<<") ";
         in_order_print(curr_node->right_child);
     }
     void in_order_print()
@@ -688,6 +705,7 @@ int main()
     tree1.insert(9);
     tree1.insert(7);
     tree1.insert(12);
+    tree1.in_order_print();
     AVLTree tree2;
     tree1.insert(8);
     tree1.insert(1);
