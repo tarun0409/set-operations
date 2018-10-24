@@ -572,7 +572,7 @@ class AVLTree
         return arr;
     }
 
-    int fill_bbst(struct node * curr_node, vector<int> arr, int start_index, int end_index, int curr_pos, int height)
+    int fill_bbst(struct node * curr_node, vector<int> arr, int start_index, int end_index, int curr_pos)
     {
         if(end_index<start_index)
         {
@@ -582,7 +582,7 @@ class AVLTree
 
         int value = arr[mid];
         struct node * new_node = create_node(value);
-        new_node->height = height;
+        //new_node->height = height;
         if(start_index!=end_index)
         {
             new_node->left_children = (mid-start_index);
@@ -596,11 +596,13 @@ class AVLTree
         {
             curr_node->right_child = new_node;
         }
-        int h1 = fill_bbst(new_node, arr, start_index, (mid-1),0, (height+1));
-        int h2 = fill_bbst(new_node, arr, (mid+1), end_index,1,(height+1));
+        int h1 = fill_bbst(new_node, arr, start_index, (mid-1),0);
+        int h2 = fill_bbst(new_node, arr, (mid+1), end_index,1);
+        int height = (h1>h2?h1:h2);
+        new_node->height = height;
         int bf = h1-h2;
         new_node->balance_factor = bf;
-        return (h1>h2?(h1+1):(h2+1));
+        return (height+1);
     }
 
     AVLTree get_bbst_from_sorted_list(vector<int> arr)
@@ -615,18 +617,76 @@ class AVLTree
         int mid = (start_index+end_index)/2;
         int value = arr[mid];
         struct node * new_node = create_node(value);
-        new_node->height = 1;
         if(start_index!=end_index)
         {
             new_node->left_children = mid;
             new_node->right_children = (end_index-start_index) - mid;
         }
         struct node * new_root = new_node;
-        int h1 = fill_bbst(new_node, arr, start_index, (mid-1),0,2);
-        int h2 = fill_bbst(new_node, arr, (mid+1), end_index,1,2);
+        int h1 = fill_bbst(new_node, arr, start_index, (mid-1),0);
+        int h2 = fill_bbst(new_node, arr, (mid+1), end_index,1);
+        int height = (h1>h2?h1:h2);
+        new_node->height = height;
         new_node->balance_factor = (h1-h2);
         AVLTree bbst;
         bbst.init(new_root);
+        return bbst;
+    }
+    AVLTree DIFFERENCE(AVLTree tree2)
+    {
+        vector<int> set1 = get_elements();
+        vector<int> set2 = tree2.get_elements();
+        vector<int> diff_set;
+        int i=0,j=0;
+        while(i<set1.size() && j<set2.size())
+        {
+            if(set1[i]<set2[j])
+            {
+                diff_set.push_back(set1[i]);
+                i++;
+            }
+            else if(set1[i]>set2[j])
+            {
+                j++;
+            }
+            else
+            {
+                i++;
+                j++;
+            }
+        }
+        while(i<set1.size())
+        {
+            diff_set.push_back(set1[i]);
+            i++;
+        }
+        AVLTree bbst = get_bbst_from_sorted_list(diff_set);
+        return bbst;
+    }
+    AVLTree INTERSECTION(AVLTree tree2)
+    {
+        vector<int> set1 = get_elements();
+        vector<int> set2 = tree2.get_elements();
+        vector<int> inter_set;
+        int i=0, j=0;
+        while(i<set1.size() && j<set2.size())
+        {
+            if(set1[i]<set2[j])
+            {
+                i++;
+            }
+            else if(set1[i]>set2[j])
+            {
+                j++;
+            }
+            else
+            {
+                inter_set.push_back(set1[i]);
+                i++;
+                j++;
+            }
+        }
+        AVLTree bbst = get_bbst_from_sorted_list(inter_set);
         return bbst;
     }
 
@@ -638,12 +698,22 @@ class AVLTree
         int i=0, j=0;
         while(i<set1.size() && j<set2.size())
         {
-            if(set1[i]<=set2[j])
+            int s = union_set.size();
+            s--;
+            if(s>=0 && union_set[s]==set1[i])
+            {
+                i++;
+            }
+            if(s>=0 && union_set[s]==set2[j])
+            {
+                j++;
+            }
+            if(i<set1.size() && set1[i]<=set2[j])
             {
                 union_set.push_back(set1[i]);
                 i++;
             }
-            else
+            else if(j<set2.size())
             {
                 union_set.push_back(set2[j]);
                 j++;
@@ -676,7 +746,7 @@ class AVLTree
             return;
         }
         in_order_print(curr_node->left_child);
-        cout<<"("<<curr_node->value<<","<<curr_node->height<<","<<curr_node->left_children<<","<<curr_node->right_children<<") ";
+        cout<<"("<<curr_node->value<<","<<curr_node->height<<")";
         in_order_print(curr_node->right_child);
     }
     void in_order_print()
@@ -705,13 +775,25 @@ int main()
     tree1.insert(9);
     tree1.insert(7);
     tree1.insert(12);
+
+    // tree1.insert(8);
+    // tree1.insert(5);
+    // tree1.insert(1);
+    // tree1.insert(3);
+    // tree1.insert(4);
+    // tree1.insert(2);
+    // tree1.insert(10);
+    // tree1.insert(7);
     tree1.in_order_print();
     AVLTree tree2;
-    tree1.insert(8);
-    tree1.insert(1);
-    tree1.insert(3);
-    tree1.insert(2);
-    tree1.insert(10);
+    tree2.insert(8);
+    tree2.insert(5);
+    tree2.insert(1);
+    tree2.insert(3);
+    tree2.insert(4);
+    tree2.insert(2);
+    tree2.insert(10);
+    tree2.insert(7);
     AVLTree ans = tree1.UNION(tree2);
     ans.in_order_print();
     return 0;
