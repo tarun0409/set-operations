@@ -12,7 +12,8 @@ For using the set data structure, include "Set.h" in the cpp file and compile as
 g++ Set.cpp your_file.cpp -o obj_file
 
 
-How to run the social network application application
+
+How to run the social network application application:
 
 g++ Set.cpp Social_network.cpp -o output
 
@@ -24,7 +25,9 @@ This will give a menu using which:
 4. Exclusive friends can be found (difference operation)
 5. Friend suggestions (uses union operation)
 
-How to run the test cases
+
+
+How to run the test cases:
 
 cd Testing
 g++ set.cpp RunTestCases.cpp -o output
