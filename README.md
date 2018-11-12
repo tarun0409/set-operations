@@ -2,10 +2,10 @@
 
 
 This project aims at:
-Providing efficient data structures for representing set and performing fundamental set operations
-Comparison of the data structure used with other contemporary data structures and visualizing the differences
-Analysis of performance and justification for our choice of data structure
-Using sets in a real application and understand how it solves some complex problems in that application
+1. Providing efficient data structures for representing set and performing fundamental set operations
+2. Comparison of the data structure used with other contemporary data structures and visualizing the differences
+3. Analysis of performance and justification for our choice of data structure
+4. Using sets in a real application and understand how it solves some complex problems in that application
 
 For using the set data structure, include "Set.h" in the cpp file and compile as follows
 
