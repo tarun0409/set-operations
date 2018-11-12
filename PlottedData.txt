@@ -1,0 +1,457 @@
+
+
+ Size = 11100
+Our Implementation | Time taken : 5.54551 ms to insert 11100 elements
+STL set function | Time taken : 6.25692 ms  to insert 11100 elements
+
+ Size = 12100
+Our Implementation | Time taken : 5.9684 ms to insert 12100 elements
+STL set function | Time taken : 6.96262 ms  to insert 12100 elements
+
+ Size = 13100
+Our Implementation | Time taken : 6.8743 ms to insert 13100 elements
+STL set function | Time taken : 7.55045 ms  to insert 13100 elements
+
+ Size = 14100
+Our Implementation | Time taken : 8.28645 ms to insert 14100 elements
+STL set function | Time taken : 8.48045 ms  to insert 14100 elements
+
+ Size = 15100
+Our Implementation | Time taken : 8.55862 ms to insert 15100 elements
+STL set function | Time taken : 9.27014 ms  to insert 15100 elements
+
+ Size = 16100
+Our Implementation | Time taken : 9.77741 ms to insert 16100 elements
+STL set function | Time taken : 10.0926 ms  to insert 16100 elements
+
+ Size = 17100
+Our Implementation | Time taken : 9.25088 ms to insert 17100 elements
+STL set function | Time taken : 11.0112 ms  to insert 17100 elements
+
+ Size = 18100
+Our Implementation | Time taken : 9.94282 ms to insert 18100 elements
+STL set function | Time taken : 11.3698 ms  to insert 18100 elements
+
+ Size = 19100
+Our Implementation | Time taken : 11.1488 ms to insert 19100 elements
+STL set function | Time taken : 12.2645 ms  to insert 19100 elements
+
+ Size = 20100
+Our Implementation | Time taken : 11.7358 ms to insert 20100 elements
+STL set function | Time taken : 13.1754 ms  to insert 20100 elements
+
+ Size = 21100
+Our Implementation | Time taken : 12.6175 ms to insert 21100 elements
+STL set function | Time taken : 13.8507 ms  to insert 21100 elements
+
+ Size = 22100
+Our Implementation | Time taken : 12.4669 ms to insert 22100 elements
+STL set function | Time taken : 14.1268 ms  to insert 22100 elements
+
+ Size = 23100
+Our Implementation | Time taken : 13.439 ms to insert 23100 elements
+STL set function | Time taken : 14.5792 ms  to insert 23100 elements
+
+ Size = 24100
+Our Implementation | Time taken : 13.9259 ms to insert 24100 elements
+STL set function | Time taken : 16.0643 ms  to insert 24100 elements
+
+ Size = 25100
+Our Implementation | Time taken : 14.8043 ms to insert 25100 elements
+STL set function | Time taken : 15.3967 ms  to insert 25100 elements
+
+ Size = 26100
+Our Implementation | Time taken : 14.9584 ms to insert 26100 elements
+STL set function | Time taken : 16.5573 ms  to insert 26100 elements
+
+ Size = 27100
+Our Implementation | Time taken : 15.0517 ms to insert 27100 elements
+STL set function | Time taken : 17.0025 ms  to insert 27100 elements
+
+ Size = 28100
+Our Implementation | Time taken : 15.7284 ms to insert 28100 elements
+STL set function | Time taken : 17.1444 ms  to insert 28100 elements
+
+ Size = 29100
+Our Implementation | Time taken : 17.6622 ms to insert 29100 elements
+STL set function | Time taken : 18.7205 ms  to insert 29100 elements
+
+ Size = 30100
+Our Implementation | Time taken : 17.3769 ms to insert 30100 elements
+STL set function | Time taken : 18.0597 ms  to insert 30100 elements
+
+ Size = 31100
+Our Implementation | Time taken : 16.987 ms to insert 31100 elements
+STL set function | Time taken : 18.4328 ms  to insert 31100 elements
+
+ Size = 32100
+Our Implementation | Time taken : 17.5756 ms to insert 32100 elements
+STL set function | Time taken : 19.2166 ms  to insert 32100 elements
+
+ Size = 33100
+Our Implementation | Time taken : 17.4323 ms to insert 33100 elements
+STL set function | Time taken : 20.0406 ms  to insert 33100 elements
+
+ Size = 34100
+Our Implementation | Time taken : 18.3629 ms to insert 34100 elements
+STL set function | Time taken : 19.9661 ms  to insert 34100 elements
+
+ Size = 35100
+Our Implementation | Time taken : 18.6437 ms to insert 35100 elements
+STL set function | Time taken : 20.3945 ms  to insert 35100 elements
+
+ Size = 36100
+Our Implementation | Time taken : 19.5408 ms to insert 36100 elements
+STL set function | Time taken : 22.4343 ms  to insert 36100 elements
+
+ Size = 37100
+Our Implementation | Time taken : 22.0248 ms to insert 37100 elements
+STL set function | Time taken : 22.1325 ms  to insert 37100 elements
+
+ Size = 38100
+Our Implementation | Time taken : 21.896 ms to insert 38100 elements
+STL set function | Time taken : 22.7873 ms  to insert 38100 elements
+
+ Size = 39100
+Our Implementation | Time taken : 22.574 ms to insert 39100 elements
+STL set function | Time taken : 23.1822 ms  to insert 39100 elements
+
+ Size = 40100
+Our Implementation | Time taken : 22.6329 ms to insert 40100 elements
+STL set function | Time taken : 23.5188 ms  to insert 40100 elements
+
+ Size = 41100
+Our Implementation | Time taken : 22.4264 ms to insert 41100 elements
+STL set function | Time taken : 23.8484 ms  to insert 41100 elements
+
+ Size = 42100
+Our Implementation | Time taken : 22.9735 ms to insert 42100 elements
+STL set function | Time taken : 24.3961 ms  to insert 42100 elements
+
+ Size = 43100
+Our Implementation | Time taken : 23.0994 ms to insert 43100 elements
+STL set function | Time taken : 24.4408 ms  to insert 43100 elements
+
+ Size = 44100
+Our Implementation | Time taken : 23.5774 ms to insert 44100 elements
+STL set function | Time taken : 25.9416 ms  to insert 44100 elements
+
+ Size = 45100
+Our Implementation | Time taken : 24.0803 ms to insert 45100 elements
+STL set function | Time taken : 25.6156 ms  to insert 45100 elements
+
+ Size = 46100
+Our Implementation | Time taken : 26.3193 ms to insert 46100 elements
+STL set function | Time taken : 27.6255 ms  to insert 46100 elements
+
+ Size = 47100
+Our Implementation | Time taken : 25.5767 ms to insert 47100 elements
+STL set function | Time taken : 27.1046 ms  to insert 47100 elements
+
+ Size = 48100
+Our Implementation | Time taken : 26.5093 ms to insert 48100 elements
+STL set function | Time taken : 27.7722 ms  to insert 48100 elements
+
+ Size = 49100
+Our Implementation | Time taken : 26.6687 ms to insert 49100 elements
+STL set function | Time taken : 28.3819 ms  to insert 49100 elements
+
+ Size = 50100
+Our Implementation | Time taken : 27.7574 ms to insert 50100 elements
+STL set function | Time taken : 28.8663 ms  to insert 50100 elements
+
+ Size = 51100
+Our Implementation | Time taken : 28.1047 ms to insert 51100 elements
+STL set function | Time taken : 29.7343 ms  to insert 51100 elements
+
+ Size = 52100
+Our Implementation | Time taken : 28.0188 ms to insert 52100 elements
+STL set function | Time taken : 30.185 ms  to insert 52100 elements
+
+ Size = 53100
+Our Implementation | Time taken : 29.837 ms to insert 53100 elements
+STL set function | Time taken : 30.1214 ms  to insert 53100 elements
+
+ Size = 54100
+Our Implementation | Time taken : 30.1123 ms to insert 54100 elements
+STL set function | Time taken : 32.1327 ms  to insert 54100 elements
+
+ Size = 55100
+Our Implementation | Time taken : 31.3576 ms to insert 55100 elements
+STL set function | Time taken : 35.611 ms  to insert 55100 elements
+
+ Size = 56100
+Our Implementation | Time taken : 32.8052 ms to insert 56100 elements
+STL set function | Time taken : 35.6584 ms  to insert 56100 elements
+
+ Size = 57100
+Our Implementation | Time taken : 36.654 ms to insert 57100 elements
+STL set function | Time taken : 39.5528 ms  to insert 57100 elements
+
+ Size = 58100
+Our Implementation | Time taken : 35.7995 ms to insert 58100 elements
+STL set function | Time taken : 36.1456 ms  to insert 58100 elements
+
+ Size = 59100
+Our Implementation | Time taken : 35.4265 ms to insert 59100 elements
+STL set function | Time taken : 34.8398 ms  to insert 59100 elements
+
+ Size = 60100
+Our Implementation | Time taken : 33.6273 ms to insert 60100 elements
+STL set function | Time taken : 35.0846 ms  to insert 60100 elements
+
+ Size = 61100
+Our Implementation | Time taken : 35.8429 ms to insert 61100 elements
+STL set function | Time taken : 36.3569 ms  to insert 61100 elements
+
+ Size = 62100
+Our Implementation | Time taken : 42.5921 ms to insert 62100 elements
+STL set function | Time taken : 37.4955 ms  to insert 62100 elements
+
+ Size = 63100
+Our Implementation | Time taken : 37.5663 ms to insert 63100 elements
+STL set function | Time taken : 38.2847 ms  to insert 63100 elements
+
+ Size = 64100
+Our Implementation | Time taken : 36.2845 ms to insert 64100 elements
+STL set function | Time taken : 35.9398 ms  to insert 64100 elements
+
+ Size = 65100
+Our Implementation | Time taken : 38.2494 ms to insert 65100 elements
+STL set function | Time taken : 38.4753 ms  to insert 65100 elements
+
+ Size = 66100
+Our Implementation | Time taken : 39.266 ms to insert 66100 elements
+STL set function | Time taken : 36.2596 ms  to insert 66100 elements
+
+ Size = 67100
+Our Implementation | Time taken : 34.4771 ms to insert 67100 elements
+STL set function | Time taken : 36.3835 ms  to insert 67100 elements
+
+ Size = 68100
+Our Implementation | Time taken : 37.2199 ms to insert 68100 elements
+STL set function | Time taken : 36.7044 ms  to insert 68100 elements
+
+ Size = 69100
+Our Implementation | Time taken : 35.755 ms to insert 69100 elements
+STL set function | Time taken : 37.5552 ms  to insert 69100 elements
+
+ Size = 70100
+Our Implementation | Time taken : 37.7593 ms to insert 70100 elements
+STL set function | Time taken : 37.3517 ms  to insert 70100 elements
+
+ Size = 71100
+Our Implementation | Time taken : 36.5664 ms to insert 71100 elements
+STL set function | Time taken : 38.4513 ms  to insert 71100 elements
+
+ Size = 72100
+Our Implementation | Time taken : 36.081 ms to insert 72100 elements
+STL set function | Time taken : 38.6351 ms  to insert 72100 elements
+
+ Size = 73100
+Our Implementation | Time taken : 37.4287 ms to insert 73100 elements
+STL set function | Time taken : 38.9828 ms  to insert 73100 elements
+
+ Size = 74100
+Our Implementation | Time taken : 40.5465 ms to insert 74100 elements
+STL set function | Time taken : 41.309 ms  to insert 74100 elements
+
+ Size = 75100
+Our Implementation | Time taken : 37.8762 ms to insert 75100 elements
+STL set function | Time taken : 39.9611 ms  to insert 75100 elements
+
+ Size = 76100
+Our Implementation | Time taken : 39.9653 ms to insert 76100 elements
+STL set function | Time taken : 40.2091 ms  to insert 76100 elements
+
+ Size = 77100
+Our Implementation | Time taken : 38.6373 ms to insert 77100 elements
+STL set function | Time taken : 41.3523 ms  to insert 77100 elements
+
+ Size = 78100
+Our Implementation | Time taken : 40.0084 ms to insert 78100 elements
+STL set function | Time taken : 41.9639 ms  to insert 78100 elements
+
+ Size = 79100
+Our Implementation | Time taken : 45.946 ms to insert 79100 elements
+STL set function | Time taken : 43.3138 ms  to insert 79100 elements
+
+ Size = 80100
+Our Implementation | Time taken : 43.0654 ms to insert 80100 elements
+STL set function | Time taken : 44.5333 ms  to insert 80100 elements
+
+ Size = 81100
+Our Implementation | Time taken : 43.2747 ms to insert 81100 elements
+STL set function | Time taken : 44.123 ms  to insert 81100 elements
+
+ Size = 82100
+Our Implementation | Time taken : 42.7658 ms to insert 82100 elements
+STL set function | Time taken : 43.6574 ms  to insert 82100 elements
+
+ Size = 83100
+Our Implementation | Time taken : 46.6152 ms to insert 83100 elements
+STL set function | Time taken : 44.1801 ms  to insert 83100 elements
+
+ Size = 84100
+Our Implementation | Time taken : 44.9171 ms to insert 84100 elements
+STL set function | Time taken : 48.7771 ms  to insert 84100 elements
+
+ Size = 85100
+Our Implementation | Time taken : 47.2312 ms to insert 85100 elements
+STL set function | Time taken : 49.3706 ms  to insert 85100 elements
+
+ Size = 86100
+Our Implementation | Time taken : 45.2204 ms to insert 86100 elements
+STL set function | Time taken : 45.9243 ms  to insert 86100 elements
+
+ Size = 87100
+Our Implementation | Time taken : 45.6917 ms to insert 87100 elements
+STL set function | Time taken : 46.5907 ms  to insert 87100 elements
+
+ Size = 88100
+Our Implementation | Time taken : 46.6529 ms to insert 88100 elements
+STL set function | Time taken : 46.4441 ms  to insert 88100 elements
+
+ Size = 89100
+Our Implementation | Time taken : 48.0544 ms to insert 89100 elements
+STL set function | Time taken : 51.3013 ms  to insert 89100 elements
+
+ Size = 90100
+Our Implementation | Time taken : 51.9063 ms to insert 90100 elements
+STL set function | Time taken : 47.1608 ms  to insert 90100 elements
+
+ Size = 91100
+Our Implementation | Time taken : 46.6573 ms to insert 91100 elements
+STL set function | Time taken : 52.7834 ms  to insert 91100 elements
+
+ Size = 92100
+Our Implementation | Time taken : 56.1881 ms to insert 92100 elements
+STL set function | Time taken : 55.9195 ms  to insert 92100 elements
+
+ Size = 93100
+Our Implementation | Time taken : 56.5294 ms to insert 93100 elements
+STL set function | Time taken : 58.7498 ms  to insert 93100 elements
+
+ Size = 94100
+Our Implementation | Time taken : 58.1384 ms to insert 94100 elements
+STL set function | Time taken : 49.6001 ms  to insert 94100 elements
+
+ Size = 95100
+Our Implementation | Time taken : 49.7317 ms to insert 95100 elements
+STL set function | Time taken : 50.1067 ms  to insert 95100 elements
+
+ Size = 96100
+Our Implementation | Time taken : 48.4806 ms to insert 96100 elements
+STL set function | Time taken : 50.1788 ms  to insert 96100 elements
+
+ Size = 97100
+Our Implementation | Time taken : 51.6061 ms to insert 97100 elements
+STL set function | Time taken : 53.3752 ms  to insert 97100 elements
+
+ Size = 98100
+Our Implementation | Time taken : 49.7823 ms to insert 98100 elements
+STL set function | Time taken : 54.4346 ms  to insert 98100 elements
+
+
+
+100	0.039066	0.056919
+1100	0.54076	0.631605
+2100	0.859872	1.161742
+3100	1.250453	1.738321
+4100	1.674435	2.286012
+5100	2.212426	4.114728
+6100	3.115447	3.613692
+7100	3.252169	4.862873
+8100	3.71	4.884917
+9100	4.94	5.616107
+10100	4.74	6.662633
+11100	5.55	8.926202
+12100	5.74	7.678071
+13100	6.18	8.112688
+14100	6.74	9.496284
+15100	8.71	11.736662
+16100	9.21	10.002985
+17100	9.50	10.943647
+18100	9.32	11.888814
+19100	11.00	12.125215
+20100	10.09	13.685772
+21100	13.21	14.42076
+22100	13.82	14.721943
+23100	13.98	16.007272
+24100	14.01	17.172659
+25100	15.17	17.393459
+26100	15.34	17.870029
+27100	15.31	18.19595
+28100	15.75	18.34838
+29100	14.98	18.425873
+30100	15.72	18.508633
+31100	15.229935	19.693577
+32100	15.829448	19.699266
+33100	18.63	21.537581
+34100	20.52	23.09772
+35100	18.62	22.630852
+36100	18.36	24.282771
+37100	24.94	26.464208
+38100	25.62	26.229892
+39100	22.76	28.026471
+40100	22.50	26.655011
+41100	21.40	25.958823
+42100	21.76	26.01675
+43100	23.65	28.22861
+44100	23.70	27.692635
+45100	23.16	30.582584
+46100	30.18	30.787779
+47100	28.10	32.101045
+48100	26.29	30.340797
+49100	26.79	30.746212
+50100	25.80	32.551545
+51100	27.94	31.894382
+52100	27.08	32.778803
+53100	27.24	34.726564
+54100	28.92	33.848328
+55100	28.770614	39.178533
+56100	33.459417	36.185927
+57100	32.114284	36.129961
+58100	35.925215	38.608791
+59100	33.46838	39.018051
+60100	35.748878	38.819301
+61100	32.775495	40.102736
+62100	35.533145	39.770124
+63100	33.44216	41.435069
+64100	38.373755	44.261041
+65100	38.425302	42.147106
+66100	40.168586	44.643501
+67100	38.415579	45.128525
+68100	36.662361	43.64275
+69100	35.665497	44.723114
+70100	40.908279	46.182587
+71100	43.236886	46.625947
+72100	38.740618	47.07253
+73100	38.406966	47.341119
+74100	44.616597	48.325655
+75100	38.339694	47.420409
+76100	40.374891	50.8045
+77100	46.707246	53.747095
+78100	49.883937	53.9166
+79100	48.058246	53.48226
+80100	49.365797	55.999991
+81100	50.546223	53.925098
+82100	44.481058	52.605457
+83100	42.994954	54.832751
+84100	43.882814	54.182949
+85100	45.234571	57.57307
+86100	50.570516	60.183805
+87100	55.324031	59.520079
+88100	53.693802	57.659789
+89100	48.462811	60.554031
+90100	50.29628	61.422287
+91100	56.073867	62.509235
+92100	57.376927	62.555685
+93100	58.045044	64.473034
+94100	60.369587	63.788182
+95100	50.661288	61.700132
+96100	52.550698	65.322968
+97100	61.75275	68.657359
+98100	64.118706	66.711474
+99100	62.405419	67.362383
+
